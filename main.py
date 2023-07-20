@@ -8,7 +8,7 @@ def main():
 
     parser.add_argument("--output_dir", type=str, default="outputs")
     parser.add_argument("--num_worker", type=int, default=16)
-    parser.add_argument("--dataroot", type=str, default='/home/zhliao/disk0/datasets/DiscRegion')
+    parser.add_argument("--dataroot", type=str, default='/.../datasets/DiscRegion')
     parser.add_argument("--dataset", choices=["RIGA"], default="RIGA")
     parser.add_argument("--phase", choices=["train", "test"], default="train")
     parser.add_argument("--validate", action="store_true")

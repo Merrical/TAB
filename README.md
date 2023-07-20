@@ -44,11 +44,12 @@ python main.py --dataset RIGA --phase test --net_arch TAB --masks --no_aux_loss 
 ```
 ### Bibtex
 ```
-@article{Liao2023TAB,
-  title   = {Transformer-based Annotation Bias-aware Medical Image Segmentation},
-  author  = {Liao, Zehui and Xie, Yutong and Hu, Shishuai and Xia, Yong},
-  journal = {MICCAI},
-  year    = {2023}
+@inproceedings{Liao2023TAB,
+  title={Transformer-based Annotation Bias-aware Medical Image Segmentation},
+  author={Liao, Zehui and Hu, Shishuai and Xie, Yutong and Xia, Yong},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  year={2023},
+  organization={Springer}
 }
 ```
 
